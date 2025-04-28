@@ -45,8 +45,7 @@ Key features:
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/Non contact Hand Gesture Based Wireless Robot
-.git
+   git clone https://github.com/your-username/Non contact Hand Gesture Based Wireless Robot.git
    cd Non contact Hand Gesture Based Wireless Robot
 
 
