@@ -69,9 +69,7 @@ Assemble the hand glove with MPU6050, push buttons, and RF module connected to t
 Assemble the robotic arm and navigation platform with DC motors, servo motors, L293D driver, and RF module connected to the receiver Arduino.
 Power the transmitter with a 9V battery and the receiver with a 12V battery.
 
-
-
-Usage
+## Usage
 
 Power on both the transmitter and receiver.
 Perform hand gestures to control the robot:
@@ -83,30 +81,20 @@ Press buttons for pick, place, up, or down actions.
 Monitor Serial output (9600 baud) for debugging gesture detection and command reception.
 Ensure the RF modules are within 1 km range (line-of-sight) for reliable communication.
 
-File Structure
-Gesture-Controlled-Robotic-Arm/
-├── src/
-│   ├── transmitter.ino    # Code for gesture detection and RF transmission
-│   └── receiver.ino       # Code for motor and servo control
-├── docs/
-│   └── MAJOR_PROJECT_BASE.docx  # Project documentation (optional)
-├── README.md              # Project overview and instructions
-├── LICENSE                # MIT License
-└── .gitignore             # Git ignore file
 
-Limitations
+## Limitations
 
 Limited RF range (up to 1 km outdoors, reduced indoors with obstacles).
 Gyro drift in MPU6050 after prolonged use; consider upgrading to a module with feedback.
 Requires stable power supply for motors and servos.
 Camera streaming (if implemented) depends on Wi-Fi, causing potential delays.
 
-Applications
+## Applications
 
 Pick-and-place tasks in industrial settings.
 Handling hazardous materials or chemicals.
 Military applications (e.g., bomb disposal).
 Environmental tasks (e.g., garbage removal in lakes).
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.```
