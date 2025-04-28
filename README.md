@@ -45,8 +45,10 @@ Key features:
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/Gesture-Controlled-Robotic-Arm.git
-   cd Gesture-Controlled-Robotic-Arm
+   git clone https://github.com/your-username/Non contact Hand Gesture Based Wireless Robot
+.git
+   cd Non contact Hand Gesture Based Wireless Robot
+
 
 
 Install Arduino Libraries:
